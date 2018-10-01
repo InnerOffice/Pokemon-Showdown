@@ -489,6 +489,22 @@ let Formats = [
 	///////////////////////////////////////////////////////////////////
 
 	{
+		section: "InnerOfficeMeta",
+		column: 2,
+	},
+	{
+		name: "InnerOffice OU",
+		threads: [
+			`&bullet; <a href="https://www.smogon.com/forums/threads/3621042/">OU Metagame Discussion</a>`,
+			`&bullet; <a href="https://www.smogon.com/forums/threads/3621329/">OU Viability Rankings</a>`,
+			`&bullet; <a href="https://www.smogon.com/forums/threads/3638845/">OU Sample Teams</a>`,
+		],
+
+		mod: 'future',
+		ruleset: ['Pokemon', 'Standard', 'Team Preview'],
+		banlist: ['Uber', 'Arena Trap', 'Power Construct', 'Shadow Tag', 'Baton Pass'],
+	},
+	{
 		section: "OM of the Month",
 		column: 2,
 	},
